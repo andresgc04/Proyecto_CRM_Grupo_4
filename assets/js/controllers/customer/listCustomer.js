@@ -1,23 +1,25 @@
-$(document).ready(function () {
-  dtCostumers();
-});
+window.addEventListener("load", event=> {
+  callAPI(url, "GET", {}).then( clientes => {
+    const costumerTableBody = document.getElementById("costumerTableBody");
 
-function dtCostumers() {
-  $("#costumersTable").DataTable({
-    ajax: {
-      url: "",
-      type: "POST",
-      datatype: "json",
-    },
-    columns: [
-      { "data": "id", "name": "Id" },
-      { "data": "name", "name": "Name" },
-      { "data": "email", "name": "Email" },
-      {"data":"address", "name":"Address"},
-      {"data":"createdAt", "render": function(data){return moment(data).format('DD/MM/YYYY')},"name": "CreatedAt"}
-    ],
-    "order":[0,"asc"],
-    "processing":"true",
-    "serverSide":"true"
-  });
-}
+    clientes.forEach(cliente => {
+      const costumerTr = document.createElement("tr");
+      const costumerTd = document.createElement("td");
+      const costumerTd2 = document.createElement("td");
+      const costumerTd3 = document.createElement("td");
+      const costumerTd4 = document.createElement("td");
+      const costumerTd5 = document.createElement("td");
+      costumerTd.textContent = cliente.id;
+      costumerTd2.textContent = cliente.name;
+      costumerTd3.textContent = cliente.email;
+      costumerTd4.textContent = cliente.address;
+      costumerTd5.textContent = cliente.createdAt;
+      costumerTr.appendChild(costumerTd);
+      costumerTr.appendChild(costumerTd2);
+      costumerTr.appendChild(costumerTd3);
+      costumerTr.appendChild(costumerTd4);
+      costumerTr.appendChild(costumerTd5);
+      costumerTableBody.appendChild(costumerTr);
+    })
+  })
+})
