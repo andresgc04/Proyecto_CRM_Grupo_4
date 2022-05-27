@@ -31,6 +31,8 @@ function saveCostumer(e) {
     .then((costumer) => {
       console.log(costumer);
     });
+
+    window.location.href="/costumer";
 }
 
 costumerForm.addEventListener("submit", saveCostumer);
