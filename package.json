@@ -16,11 +16,12 @@
   "bugs": {
     "url": "https://github.com/andresgc04/Proyecto_CRM_Grupo_4/issues"
   },
-  "homepage": ".",
+  "homepage": "http://.",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "express": "^4.18.1",
     "json-server": "^0.17.0",
     "nodemon": "^2.0.16"
-  }
+  },
+  "keywords": []
 }
