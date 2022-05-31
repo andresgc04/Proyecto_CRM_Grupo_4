@@ -1348,6 +1348,20 @@
       "email": "ElbaEneida2@outlook.com",
       "address": "Calle Cofresi",
       "createdAt": "2022-5-26"
+    },
+    {
+      "name": "Maria Codero",
+      "email": "mariacordero82@outlook.com",
+      "address": "Doctor Teofilo Ferry #165",
+      "createdAt": "2022-5-29",
+      "id": 107
+    },
+    {
+      "name": "Hugo Guerrero",
+      "email": "hugoguerrero@outlook.com",
+      "address": "Altos De Rios Dulce, Calle Cofresi. La Romana",
+      "createdAt": "2022-5-29",
+      "id": 108
     }
   ],
   "interaction": [
