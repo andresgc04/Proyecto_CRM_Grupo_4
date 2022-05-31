@@ -1,22 +1,10 @@
 {
   "user": [
     {
-      "id": 1,
-      "name": "Abby",
-      "username": "askeath0",
-      "password": "aEgUAJL"
-    },
-    {
       "id": 2,
       "name": "Renaldo",
-      "username": "rlegate1",
+      "username": "rlegate1rd",
       "password": "8FkUL0FAs"
-    },
-    {
-      "id": 3,
-      "name": "Shell",
-      "username": "smargaritelli2",
-      "password": "QrWcbpMlSX1I"
     },
     {
       "id": 4,
@@ -599,6 +587,24 @@
       "name": "Carilyn",
       "username": "cciabatteri2r",
       "password": "CgUE1YSlBv5"
+    },
+    {
+      "name": "Kath",
+      "username": "Kathrd",
+      "password": "1234",
+      "id": 101
+    },
+    {
+      "name": "Andres",
+      "username": "andresss",
+      "password": "",
+      "id": 102
+    },
+    {
+      "name": "Andres",
+      "username": "andresss",
+      "password": "",
+      "id": 103
     }
   ],
   "costumer": [

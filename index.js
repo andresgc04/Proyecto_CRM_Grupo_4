@@ -18,12 +18,24 @@ app.get("/costumer", function (req, res) {
   res.sendFile(path.join(__dirname + "/views/costumer/index.html"));
 });
 
+app.get("/user", function (req, res) {
+  res.sendFile(path.join(__dirname + "/views/user/index.html"));
+});
+
+
 app.get("/newCostumer", function (req, res) {
   res.sendFile(path.join(__dirname + "/views/costumer/newCostumer.html"));
 });
 
 app.get("/editCostumer", function (req, res) {
   res.sendFile(path.join(__dirname + "/views/costumer/editCostumer.html"));
+});
+app.get("/editUser", function (req, res) {
+  res.sendFile(path.join(__dirname + "/views/user/editUser.html"));
+});
+
+app.get("/addUser", function (req, res) {
+  res.sendFile(path.join(__dirname + "/views/user/addUser.html"));
 });
 
 app.listen(3000);

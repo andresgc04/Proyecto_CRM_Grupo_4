@@ -7,4 +7,5 @@ function login(){
     if(username !="" && password !=""){
         window.location.href="/dashboard";
     }
+    
 }
