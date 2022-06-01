@@ -1402,13 +1402,6 @@
   ],
   "interaction": [
     {
-      "id": 1,
-      "note": "potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt",
-      "createdAt": "2021-09-18",
-      "user": 1,
-      "costumer": 1
-    },
-    {
       "id": 2,
       "note": "blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer",
       "createdAt": "2021-12-30",
