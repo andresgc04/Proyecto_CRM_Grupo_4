@@ -49,5 +49,9 @@ app.get("/addUser", function (req, res) {
   res.sendFile(path.join(__dirname + "/views/user/addUser.html"));
 });
 
+app.get("/interaction", function(req, res){
+  res.sendFile(path.join(__dirname + "/views/interaction/index.html"));
+})
+
 app.listen(3000);
 console.log("http://localhost:3000");

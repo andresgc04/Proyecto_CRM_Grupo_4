@@ -605,6 +605,42 @@
       "username": "andresss",
       "password": "",
       "id": 103
+    },
+    {
+      "name": "Nicky Mercedes",
+      "username": "Nicky007",
+      "password": "Nicky1234567",
+      "id": 104
+    },
+    {
+      "id": 105
+    },
+    {
+      "id": 106
+    },
+    {
+      "id": 107
+    },
+    {
+      "id": 108
+    },
+    {
+      "id": 109
+    },
+    {
+      "id": 110
+    },
+    {
+      "id": 111
+    },
+    {
+      "id": 112
+    },
+    {
+      "name": "admin",
+      "username": "admin",
+      "password": "admin",
+      "id": 113
     }
   ],
   "costumer": [
@@ -2036,34 +2072,6 @@
       "createdAt": "2021-07-15",
       "user": 96,
       "costumer": 96
-    },
-    {
-      "id": 97,
-      "note": "vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia",
-      "createdAt": "2022-03-19",
-      "user": 97,
-      "costumer": 97
-    },
-    {
-      "id": 98,
-      "note": "non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit",
-      "createdAt": "2021-08-24",
-      "user": 98,
-      "costumer": 98
-    },
-    {
-      "id": 99,
-      "note": "quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in",
-      "createdAt": "2022-05-16",
-      "user": 99,
-      "costumer": 99
-    },
-    {
-      "id": 100,
-      "note": "congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae",
-      "createdAt": "2021-12-14",
-      "user": 100,
-      "costumer": 100
     }
   ]
 }
